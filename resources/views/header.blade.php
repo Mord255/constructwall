@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 
         {{-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> --}}
-        <link rel="shortcut icon" href="{{ asset('landing/image/favicon.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('landing/image/logo.png') }}" type="image/x-icon">
         <!-- Bootstrap , fonts & icons  -->
         <link rel="stylesheet" href="{{ asset('landing/css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('landing/fonts/icon-font/css/style.css') }}">

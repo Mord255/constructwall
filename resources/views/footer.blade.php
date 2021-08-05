@@ -9,18 +9,20 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 	<footer id="dk-footer" class="dk-footer">
-			<div class="container">
+			<div class="container" id="contacto">
 				<div class="row">
-					<div class="col-md-12 col-lg-4">
+					{{-- <div class="col-md-12 col-lg-4">
 						<div class="dk-footer-box-info">
-							<a href="index.html" class="footer-logo">
+							<center>
+							<a href="#" class="footer-logo">
 								<img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
+								<img src="{{ asset('landing/image/logo.png') }}" width="70%" class="img-fluid">
 							</a>
-							<p class="footer-info-text">
-							Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
-							</p>
+							</center>
+							
+							<br>
 							<div class="footer-social-link">
-								<h3>Follow us</h3>
+								<h3>Nuestras Redes</h3>
 								<ul>
 									<li>
 										<a href="#">
@@ -28,9 +30,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="#">
-											<i class="fa fa-twitter"></i>
-										</a>
+										
 									</li>
 									<li>
 										<a href="#">
@@ -44,161 +44,137 @@
 									</li>
 									<li>
 										<a href="#">
-											<i class="fa fa-instagram"></i>
+											<i class="fa fa-whatsapp" style="background-color:green;"></i>
 										</a>
 									</li>
 								</ul>
 							</div>
-							<!-- End Social link -->
 						</div>
-						<!-- End Footer info -->
-						<div class="footer-awarad">
-							<img src="images/icon/best.png" alt="">
-							<p>Best Design Company 2019</p>
-						</div>
-					</div>
-					<!-- End Col -->
-					<div class="col-md-12 col-lg-8">
-						<div class="row">
+						
+					</div> --}}
+
+
+					<div class="col-md-12 col-lg-12">
+						{{-- <div class="row">
 							<div class="col-md-6">
 								<div class="contact-us">
 									<div class="contact-icon">
 										<i class="fa fa-map-o" aria-hidden="true"></i>
 									</div>
-									<!-- End contact Icon -->
 									<div class="contact-info">
 										<h3>Jaipur India</h3>
 										<p>5353 Road Avenue</p>
 									</div>
-									<!-- End Contact Info -->
 								</div>
-								<!-- End Contact Us -->
 							</div>
-							<!-- End Col -->
 							<div class="col-md-6">
 								<div class="contact-us contact-us-last">
 									<div class="contact-icon">
 										<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
 									</div>
-									<!-- End contact Icon -->
 									<div class="contact-info">
 										<h3>95 711 9 5353</h3>
 										<p>Give us a call</p>
 									</div>
-									<!-- End Contact Info -->
 								</div>
-								<!-- End Contact Us -->
 							</div>
-							<!-- End Col -->
-						</div>
-						<!-- End Contact Row -->
+						</div> --}}
+						
 						<div class="row">
-							<div class="col-md-12 col-lg-6">
-								<div class="footer-widget footer-left-widget">
-									<div class="section-heading">
-										<h3>Useful Links</h3>
-										<span class="animate-border border-black"></span>
-									</div>
-									<ul>
-										<li>
-											<a href="#">About us</a>
-										</li>
-										<li>
-											<a href="#">Services</a>
-										</li>
-										<li>
-											<a href="#">Projects</a>
-										</li>
-										<li>
-											<a href="#">Our Team</a>
-										</li>
-									</ul>
-									<ul>
-										<li>
-											<a href="#">Contact us</a>
-										</li>
-										<li>
-											<a href="#">Blog</a>
-										</li>
-										<li>
-											<a href="#">Testimonials</a>
-										</li>
-										<li>
-											<a href="#">Faq</a>
-										</li>
-									</ul>
-								</div>
-								<!-- End Footer Widget -->
-							</div>
-							<!-- End col -->
-							<div class="col-md-12 col-lg-6">
+							<div class="col-md-4 col-lg-4">
 								<div class="footer-widget">
-									<div class="section-heading">
-										<h3>Subscribe</h3>
-										<span class="animate-border border-black"></span>
-									</div>
-									<p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-									Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
-									<form action="#">
-										<div class="form-row">
-											<div class="col dk-footer-form">
-												<input type="email" class="form-control" placeholder="Email Address">
-												<button type="submit">
-													<i class="fa fa-send"></i>
-												</button>
-											</div>
-										</div>
-									</form>
-									<!-- End form -->
+									<a href="#" class="footer-logo">
+										<img src="{{ asset('landing/image/logo.png') }}" width="70%" class="img-fluid">
+									</a>
 								</div>
-								<!-- End footer widget -->
 							</div>
-							<!-- End Col -->
+							<div class="col-md-8 col-lg-8 ">
+								
+								<div class="footer-widget footer-left-widget text-align-center">
+									
+										<div class="section-heading">
+											<h1 style="color:white;">Contactenos</h1>
+											<span class="animate-border border-black"></span>
+										</div>
+										<ul>
+											<li>
+												<a class="row" href="#">
+													<i style="color:red;font-size: 35px;" class="fas fa-map-marker-alt col-md-2"></i><h5 class="col-md-10 "> Direccion</h5> 
+												</a>
+											</li>
+											<li>
+												<a class="row" href="#">
+													<i style="color:white;" class="fas fa-phone fa-2x col-md-2"></i><h5 class="col-md-10 "> Numeros</h5> 
+												</a>
+											</li>
+											<li>
+												<a class="row" href="#">
+													<i style="color:blue;font-size: 35px;" class="fab fa-facebook col-md-2"></i><h5 class="col-md-10 "> ConstructWall</h5> 
+												</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a class="row" href="#">
+													<i style="color:green;font-size: 40px;" class="fab fa-whatsapp col-md-2"></i><h5 class="col-md-10 "> 972364645</h5> 
+												</a>
+											</li>
+											<li>
+												<a class="row" href="#">
+													<i style="color:#CC1414;font-size: 35px;" class="fa fa-envelope  col-md-2"></i><h5 class="col-md-10 "> info@constructwall.com</h5> 
+												</a>
+											</li>
+											{{-- <li>
+												<a href="#">Blog</a>
+											</li>
+											<li>
+												<a href="#">Testimonials</a>
+											</li>
+											<li>
+												<a href="#">Faq</a>
+											</li> --}}
+										</ul>
+									
+								</div>
+							
+							</div>
+							
+							
 						</div>
-						<!-- End Row -->
 					</div>
-					<!-- End Col -->
 				</div>
-				<!-- End Widget Row -->
 			</div>
-			<!-- End Contact Container -->
 
 
+
+			<!-- copyright -->
 			<div class="copyright">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-							<span>Copyright © 2019, All Right Reserved Seobin</span>
+						<div class="col-md-6 text-align-center">
+							<div class="copyright-menu">
+								<div class="copyright-menu">
+									<span>Copyright © 2021, All Right Reserved</span>
+								</div>
+							</div>
 						</div>
-						<!-- End Col -->
 						<div class="col-md-6">
 							<div class="copyright-menu">
 								<ul>
 									<li>
-										<a href="#">Home</a>
-									</li>
-									<li>
-										<a href="#">Terms</a>
-									</li>
-									<li>
-										<a href="#">Privacy Policy</a>
-									</li>
-									<li>
-										<a href="#">Contact</a>
+										<a href="#">Volver al Inicio</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<!-- End col -->
+						{{-- <div class="col-md-12">
+							<div class="copyright-menu">
+								<span>Copyright © 2021, All Right Reserved</span>
+							</div>
+						</div> --}}
 					</div>
-					<!-- End Row -->
 				</div>
-				<!-- End Copyright Container -->
 			</div>
-			<!-- End Copyright -->
-			<!-- Back to top -->
-			
-			<!-- End Back to top -->
 	</footer>
 	
 
