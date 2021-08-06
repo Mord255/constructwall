@@ -8,7 +8,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-	<footer id="dk-footer" class="dk-footer" style="background-color: white">
+	<footer id="dk-footer" class="dk-footer " style="background-color: white">
 			<div class="container" id="contacto" >
 				<div class="row">
 					{{-- <div class="col-md-12 col-lg-4">
