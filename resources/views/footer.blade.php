@@ -8,8 +8,8 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-	<footer id="dk-footer" class="dk-footer">
-			<div class="container" id="contacto">
+	<footer id="dk-footer" class="dk-footer" style="background-color: white">
+			<div class="container" id="contacto" >
 				<div class="row">
 					{{-- <div class="col-md-12 col-lg-4">
 						<div class="dk-footer-box-info">
@@ -81,19 +81,17 @@
 						</div> --}}
 						
 						<div class="row">
-							<div class="col-md-4 col-lg-4">
+							<div class="col-md-7 col-lg-7">
 								<div class="footer-widget">
 									<a href="#" class="footer-logo">
-										<img src="{{ asset('landing/image/logo.png') }}" width="70%" class="img-fluid">
+										<img src="{{ asset('landing/image/logo1.jpg') }}" width="80%" class="img-fluid">
 									</a>
 								</div>
 							</div>
-							<div class="col-md-8 col-lg-8 ">
-								
-								<div class="footer-widget footer-left-widget text-align-center">
-									
+							<div class="col-md-5 col-lg-5 ">
+								<div class="footer-widget footer-left-widget text-align-center ">
 										<div class="section-heading">
-											<h1 style="color:white;">Contactenos</h1>
+											<h1 style="color:black;">Contactenos</h1>
 											<span class="animate-border border-black"></span>
 										</div>
 										<ul>
@@ -104,7 +102,7 @@
 											</li>
 											<li>
 												<a style="text-decoration: none" class="row" href="#">
-													<i style="color:white;" class="fas fa-phone fa-2x col-md-2"></i><h5 class="col-md-10 "> Numeros</h5> 
+													<i style="color:black;" class="fas fa-phone fa-2x col-md-2"></i><h5 class="col-md-10 "> Numeros</h5> 
 												</a>
 											</li>
 											<li>
@@ -120,19 +118,10 @@
 												</a>
 											</li>
 											<li>
-												<a style="text-decoration: none" class="row" href="#">
+												<a style="text-decoration: none" class="row" href="jean2000.jfps@gmail.com" target="_blank">
 													<i style="color:#CC1414;font-size: 35px;" class="fa fa-envelope  col-md-2"></i><h5 class="col-md-10 "> info@constructwall.com</h5> 
 												</a>
 											</li>
-											{{-- <li>
-												<a href="#">Blog</a>
-											</li>
-											<li>
-												<a href="#">Testimonials</a>
-											</li>
-											<li>
-												<a href="#">Faq</a>
-											</li> --}}
 										</ul>
 								</div>
 							</div>
@@ -144,13 +133,13 @@
 
 
 			<!-- copyright -->
-			<div class="copyright">
+			<div style="background-color: #015a68" class="copyright">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 text-align-center">
 							<div class="copyright-menu">
-								<div class="copyright-menu">
-									<span>Copyright © 2021, All Right Reserved</span>
+								<div class="copyright-menu text-white">
+									<span class="text-white">Copyright © 2021, All Right Reserved</span>
 								</div>
 							</div>
 						</div>
@@ -158,7 +147,7 @@
 							<div class="copyright-menu">
 								<ul>
 									<li>
-										<a href="#">Volver al Inicio</a>
+										<a class="text-white" href="#">Volver al Inicio</a>
 									</li>
 								</ul>
 							</div>

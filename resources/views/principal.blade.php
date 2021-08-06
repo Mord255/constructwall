@@ -29,16 +29,16 @@
 		</div>    -->
 		<!--Site Header Area -->
 		{{-- style="background-color: #202020" --}}
-		<header  class="site-header site-header--menu-right landing-14-menu site-header--absolute site-header--sticky">
+		<header style="background-color: white" class="site-header site-header--menu-right landing-14-menu site-header--absolute site-header--sticky">
 			<div class="container" >
-			<nav class="navbar site-navbar " >
+			<nav class="navbar site-navbar "  >
 				<!-- Brand Logo-->
 				<div class="brand-logo m-2">
 				<a href="#">
 					<!-- light version logo (logo must be black)-->
-					<img src="{{ asset('landing/image/logo1.png') }}" width="15%" height="15%" alt="" class="light-version-logo">
+					<img src="{{ asset('landing/image/logo1.jpg') }}" width="15%" height="15%" alt="" class="light-version-logo">
 					<!-- Dark version logo (logo must be White)-->
-					<img src="{{ asset('landing/image/logo1.png') }}" width="15%" height="15%" alt="" class="dark-version-logo">
+					<img src="{{ asset('landing/image/logo1.jpg') }}" width="15%" height="15%" alt="" class="dark-version-logo">
 				</a>
 				</div>
 				<div class="menu-block-wrapper">
@@ -71,16 +71,16 @@
 						</ul>
 					</li> --}}
 					<li class="nav-item">
-						<a href="#home" style="font-size: 100%;" class="nav-link-item text-white">Inicio</a>
+						<a href="#home" style="font-size: 120%;" class="nav-link-item "><b>Inicio</b></a>
 					</li>
 					<li class="nav-item">
-						<a href="#servicios" style="font-size: 100%;" class="nav-link-item text-white">Servicios</a>
+						<a href="#servicios" style="font-size: 120%;" class="nav-link-item "><b>Servicios</b></a>
 					</li>
 					<li class="nav-item">
-						<a href="#nosotros" style="font-size: 100%;" class="nav-link-item text-white">Nosotros</a>
+						<a href="#nosotros" style="font-size: 120%;" class="nav-link-item "><b>Nosotros</b></a>
 					</li>
 					<li class="nav-item">
-						<a href="#contacto" style="font-size: 100%;" class="nav-link-item text-white">Contactanos</a>
+						<a href="#contacto" style="font-size: 120%;" class="nav-link-item "><b>Contactanos</b></a>
 					</li>
 					</ul>
 				</nav>
@@ -171,7 +171,7 @@
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
 					<h2>Construcciones con Drywall</h2>
 					<p>Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
+					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
 				</div>
@@ -197,7 +197,7 @@
 				<div class="content section-heading-8 text-lg-start text-center">
 					<h2>Construcciones en Material Noble</h2>
 					<p>Realizamos todo tipo de construcciones de material noble con expertos caslificados para construccion el hogar de sus sueños</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
+					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
 				</div>
@@ -213,7 +213,7 @@
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
 					<h2>Instalaciones Electricas y Sanitarias</h2>
 					<p>Realizamos instalaciones electricas con materiales de alta calidad y de complejo funcionamiento, a su vez realizamos instalaciones sanitarias para todo tipo de construccion</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
+					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
 				</div>
@@ -239,7 +239,7 @@
 				<div class="content section-heading-8 text-lg-start text-center">
 					<h2>Diseño de Interiores</h2>
 					<p>Realizamos todo tipo de Diseño de interiores llevando a cabo el acabado de sus sueños con expertos calificados y materiales de alta calidad</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
+					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
 				</div>
@@ -314,6 +314,9 @@
 		<br>
 		<br>
 		<br>
+		<div class="p-2" style="background-color: #00b1a8">
+			<p style="text-color: #00b1a8">.</p>
+		</div>
 		<!-- Pricing-area section -->
 		{{-- <div class="pricing-area-l14 position-relative overflow-hidden z-index-1">
 			<div class="container">
