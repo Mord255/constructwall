@@ -18,7 +18,7 @@
 
 	
 	
-<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';background-color: #A2A2A2">
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
 	<div class="site-wrapper overflow-hidden position-relative" >
 		<!-- Site Header -->
 		<!-- Preloader -->
@@ -28,16 +28,17 @@
 		</div>
 		</div>    -->
 		<!--Site Header Area -->
-		<header style="background-color: #202020" class="site-header site-header--menu-right landing-14-menu site-header--absolute site-header--sticky">
+		{{-- style="background-color: #202020" --}}
+		<header  class="site-header site-header--menu-right landing-14-menu site-header--absolute site-header--sticky">
 			<div class="container" >
 			<nav class="navbar site-navbar " >
 				<!-- Brand Logo-->
 				<div class="brand-logo m-2">
 				<a href="#">
 					<!-- light version logo (logo must be black)-->
-					<img src="{{ asset('landing/image/logo.png') }}" width="15%" height="15%" alt="" class="light-version-logo">
+					<img src="{{ asset('landing/image/logo1.png') }}" width="15%" height="15%" alt="" class="light-version-logo">
 					<!-- Dark version logo (logo must be White)-->
-					<img src="{{ asset('landing/image/logo.png') }}" width="15%" height="15%" alt="" class="dark-version-logo">
+					<img src="{{ asset('landing/image/logo1.png') }}" width="15%" height="15%" alt="" class="dark-version-logo">
 				</a>
 				</div>
 				<div class="menu-block-wrapper">
@@ -70,16 +71,16 @@
 						</ul>
 					</li> --}}
 					<li class="nav-item">
-						<a href="#home" style="font-size: 150%;" class="nav-link-item text-white">Inicio</a>
+						<a href="#home" style="font-size: 100%;" class="nav-link-item text-white">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a href="#servicios" style="font-size: 150%;" class="nav-link-item text-white">Servicios</a>
+						<a href="#servicios" style="font-size: 100%;" class="nav-link-item text-white">Servicios</a>
 					</li>
 					<li class="nav-item">
-						<a href="#nosotros" style="font-size: 150%;" class="nav-link-item text-white">Nosotros</a>
+						<a href="#nosotros" style="font-size: 100%;" class="nav-link-item text-white">Nosotros</a>
 					</li>
 					<li class="nav-item">
-						<a href="#contacto" style="font-size: 150%;" class="nav-link-item text-white">Contactanos</a>
+						<a href="#contacto" style="font-size: 100%;" class="nav-link-item text-white">Contactanos</a>
 					</li>
 					</ul>
 				</nav>
@@ -104,8 +105,8 @@
 			<div class="row position-relative justify-content-center">
 				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 pr-0 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
 				<div class="content">
-					<h1><b>CONSTRUCTWALL</b></h1>
-					<p>Somos CONSTRUCTWALL, empresa dedicada a la prestación de servicios en drywall, construcciones Metálicas, instalaciones eléctricas y sanitarias, construcciones en material noble y diseño de Interiores. Contamos con un equipo calificado que está conformado por profesionales y personal calificado con experiencia.</p>
+					<h1 class="text-white"><b>CONSTRUCTWALL</b></h1>
+					<p class="text-white">Somos CONSTRUCTWALL, empresa dedicada a la prestación de servicios en drywall, construcciones Metálicas, instalaciones eléctricas y sanitarias, construcciones en material noble y diseño de Interiores. Contamos con un equipo calificado que está conformado por profesionales y personal calificado con experiencia.</p>
 					{{-- <a href="#" class="btn focus-reset">Start my free trial</a> --}}
 				</div>
 				</div>
@@ -182,49 +183,8 @@
 			</div>
 			</div>
 		</div>
+
 		<!-- Content-Area-2 -->
-		<div class="content-area-l-14-2">
-			<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-				<div class="content-img pr-lg-13">
-					<img src="{{ asset('landing/image/l4/content-img-2.png') }}" alt="" class="w-100">
-				</div>
-				</div>
-				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-				<div class="content section-heading-8 text-lg-start text-center">
-					<h2>
-					Construcciones Metalicas
-					</h2>
-					<p>Realizamos construcciones metalicas para brindar soporte a todo tipo de construccion</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
-					</a>
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<!-- Content-Area-3 -->
-		<div class="content-area-l-14-1 position-relative">
-			<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
-				<div class="h-100 section-heading-8 content text-lg-start text-center">
-					<h2>Instalaciones Electricas y Sanitarias</h2>
-					<p>Realizamos instalaciones electricas con materiales de alta calidad y de complejo funcionamiento, a su vez realizamos instalaciones sanitarias para todo tipo de construccion</p>
-					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
-					</a>
-				</div>
-				</div>
-				<div class="offset-xl-2 col-xl-6 col-lg-6 col-md-8 pl-xl-11 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-				<div class="content-img">
-					<img src="{{ asset('landing/image/l4/content-img-1.png') }}" alt="" class="w-100 w-xl-auto">
-				</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<!-- Content-Area-4 -->
 		<div class="content-area-l-14-2">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
@@ -244,14 +204,15 @@
 			</div>
 			</div>
 		</div>
-		<!-- Content-Area-5 -->
+		
+		<!-- Content-Area-2 -->
 		<div class="content-area-l-14-1 position-relative">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
-					<h2>Diseño de Interiores</h2>
-					<p>Realizamos todo tipo de Diseño de interiores llevando a cabo el acabado de sus sueños con expertos calificados y materiales de alta calidad</p>
+					<h2>Instalaciones Electricas y Sanitarias</h2>
+					<p>Realizamos instalaciones electricas con materiales de alta calidad y de complejo funcionamiento, a su vez realizamos instalaciones sanitarias para todo tipo de construccion</p>
 					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -264,72 +225,95 @@
 			</div>
 			</div>
 		</div>
-		<!-- Feature Area -->
-		<div class="features-area-l-14" id="nosotros">
-			<div class="container bg-shape-img-2 position-relative">
-			<div class="row features-area-l-14 justify-content-center mx-0">
-				<div class="col-lg-6 col-md-8 col-sm-10 px-lg-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-				<div class="content-area  d-flex">
-					<div class="circle-85 hover-icon">
-					<img src="{{ asset('landing/image/l4/f-icon-1.png') }}" alt="">
-					</div>
-					<div class="content-body pl-sm-14 pl-5">
-					<h5>
-						Easy to use</h5>
-					<p class="mb-0">
-						Event is not like most tech conferences.
-						We want our presentations to engage the audience, spark discussion and inspire new ideas.
-					</p>
-					</div>
+
+		<!-- Content-Area-2 -->
+		<div class="content-area-l-14-2">
+			<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+				<div class="content-img pr-lg-13">
+					<img src="{{ asset('landing/image/l4/content-img-2.png') }}" alt="" class="w-100">
 				</div>
 				</div>
-				<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-				<div class="content-area  d-flex ">
-					<div class="circle-85 hover-icon">
-					<img src="{{ asset('landing/image/l4/f-icon-2.png') }}" alt="">
-					</div>
-					<div class="content-body">
-					<h5>
-						Easy to Use</h5>
-					<p class="mb-0">
-						Event is not like most tech conferences.
-						We want our presentations to engage the audience, and inspire new ideas.</p>
-					</div>
-				</div>
-				</div>
-				<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-				<div class="content-area  d-flex ">
-					<!-- circle-85 start -->
-					<div class="circle-85 hover-icon">
-					<img src="{{ asset('landing/image/l4/f-icon-3.png') }}" alt="">
-					</div>
-					<div class="content-body">
-					<h5>
-						Easy to Use</h5>
-					<p class="mb-0">
-						Event is not like most tech conferences.
-						We want our presentations to engage the audience.</p>
-					</div>
-				</div>
-				</div>
-				<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-				<div class="content-area  d-flex ">
-					<div class="circle-85  hover-icon">
-					<img src="{{ asset('landing/image/l4/f-icon-4.png') }}" alt="" />
-					</div>
-					<div class="content-body">
-					<h5>
-						Easy to Use</h5>
-					<p class="mb-0">
-						Event is not like most tech conferences.
-						We want our presentations to engage the audience, spark discussion and inspire new ideas.
-					</p>
-					</div>
+				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+				<div class="content section-heading-8 text-lg-start text-center">
+					<h2>Diseño de Interiores</h2>
+					<p>Realizamos todo tipo de Diseño de interiores llevando a cabo el acabado de sus sueños con expertos calificados y materiales de alta calidad</p>
+					<a href="#" class="btn focus-reset">Empecemos<i class="fas fa-angle-right"></i>
+					</a>
 				</div>
 				</div>
 			</div>
 			</div>
 		</div>
+		
+		
+		<!-- Feature Area -->
+		{{-- <div class="features-area-l-14" id="nosotros">
+			<div class="container bg-shape-img-2 position-relative">
+				<div class="row features-area-l-14 justify-content-center mx-0">
+					<div class="col-lg-6 col-md-8 col-sm-10 px-lg-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+						<div class="content-area  d-flex">
+							<div class="circle-85 hover-icon">
+							<img src="{{ asset('landing/image/l4/f-icon-1.png') }}" alt="">
+							</div>
+							<div class="content-body pl-sm-14 pl-5">
+								<h5>Mision</h5>
+								<p class="mb-0">
+									Trabajar constantemente junto con nuestros colaboradores para ofrecer servicios en infraestructura de calidad, confiables, rápidos y con facilidad de adaptación a cada una de las necesidades de nuestros clientes.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+						<div class="content-area  d-flex ">
+							<div class="circle-85 hover-icon">
+							<img src="{{ asset('landing/image/l4/f-icon-2.png') }}" alt="">
+							</div> 
+							<div class="content-body">
+								<h5>Vision</h5>
+								<p class="mb-0">
+									Ser una empresa reconocida a nivel Lima Metropolitana por ofrecer servicios en infraestructura con materiales de calidad, ofreciéndoles la mejor respuesta a sus necesidades.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+						<div class="content-area  d-flex ">
+							
+							<div class="circle-85 hover-icon">
+							<img src="{{ asset('landing/image/l4/f-icon-3.png') }}" alt="">
+							</div>
+							<div class="content-body">
+							<h5>
+								Easy to Use</h5>
+							<p class="mb-0">
+								Event is not like most tech conferences.
+								We want our presentations to engage the audience.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+						<div class="content-area  d-flex ">
+							<div class="circle-85  hover-icon">
+							<img src="{{ asset('landing/image/l4/f-icon-4.png') }}" alt="" />
+							</div>
+							<div class="content-body">
+							<h5>
+								Easy to Use</h5>
+							<p class="mb-0">
+								Event is not like most tech conferences.
+								We want our presentations to engage the audience, spark discussion and inspire new ideas.
+							</p>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div> --}}
+		<br>
+		<br>
+		<br>
 		<!-- Pricing-area section -->
 		{{-- <div class="pricing-area-l14 position-relative overflow-hidden z-index-1">
 			<div class="container">
@@ -513,7 +497,7 @@
 			</div>
 		</div> --}}
 		<!-- CTA Area -->
-		<div class="cta-area-l-14">
+		{{-- <div class="cta-area-l-14">
 			<div class="container position-relative">
 			<div class="bg-shape-img-3"></div>
 			<div class="row cta-area-l-14-content justify-content-center text-lg-start text-center">
@@ -527,7 +511,7 @@
 				</div>
 			</div>
 			</div>
-		</div>
+		</div> --}}
 	  
 	</div>
 	<!-- Vendor Scripts -->
