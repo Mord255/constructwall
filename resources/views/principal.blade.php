@@ -1,5 +1,5 @@
 @extends('header')
-@section('titulo','ContructWall')
+@section('titulo','ConstructWall')
 @section('contenido')
 
 
@@ -100,7 +100,7 @@
 		</header>
 		<!-- navbar- -->
 		<!-- Hero Area -->
-		<div class="hero-area-l-14 position-relative z-index-1 overflow-hidden" style="" id="home">
+		<div class="hero-area-l-14 position-relative z-index-1 overflow-hidden fondoplano" style="" id="home">
 			<div class="container">
 			<div class="row position-relative justify-content-center">
 				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 pr-0 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
@@ -156,21 +156,23 @@
 			</div>
 			</div>
 		</div> --}}
-		<div class="container" id="servicios">
+		{{-- <div class="container" id="servicios">
 			<div class="row">
 				<div class="col-lg-12">
 				<div class="brand-aarea-border-l14"></div>
 				</div>
 			</div>
-		</div>
+		</div> --}}
+
+		<div class="container" id="servicios"></div>
 		<!-- Content-Area-1 -->
-		<div class="content-area-l-14-1 position-relative">
+		<div class="content-area-l-14-1 position-relative fondoplano">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
-					<h2>Construcciones con Drywall</h2>
-					<p>Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee</p>
+					<h2 >Construcciones con Drywall</h2>
+					<p >Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee</p>
 					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -185,7 +187,7 @@
 		</div>
 
 		<!-- Content-Area-2 -->
-		<div class="content-area-l-14-2">
+		<div class="content-area-l-14-2 position-relative fondoplano">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
@@ -206,7 +208,7 @@
 		</div>
 		
 		<!-- Content-Area-2 -->
-		<div class="content-area-l-14-1 position-relative">
+		<div class="content-area-l-14-1 position-relative fondoplano">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
@@ -227,7 +229,7 @@
 		</div>
 
 		<!-- Content-Area-2 -->
-		<div class="content-area-l-14-2">
+		<div class="content-area-l-14-2 position-relative fondoplano">
 			<div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
@@ -311,9 +313,7 @@
 				</div>
 			</div>
 		</div> --}}
-		<br>
-		<br>
-		<br>
+		
 		<div class="p-2" style="background-color: #00b1a8">
 			<p style="text-color: #00b1a8">.</p>
 		</div>
