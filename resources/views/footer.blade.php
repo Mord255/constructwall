@@ -100,11 +100,11 @@
 													<i style="color:red;font-size: 35px;" class="fas fa-map-marker-alt col-md-2"></i><h5 class="col-md-10 "> Direccion</h5> 
 												</a>
 											</li>
-											<li>
+											{{-- <li>
 												<a style="text-decoration: none" class="row" href="#">
 													<i style="color:black;" class="fas fa-phone fa-2x col-md-2"></i><h5 class="col-md-10 "> Numeros</h5> 
 												</a>
-											</li>
+											</li> --}}
 											<li>
 												<a style="text-decoration: none" class="row" href="#">
 													<i style="color:blue;font-size: 35px;" class="fab fa-facebook col-md-2"></i><h5 class="col-md-10 "> ConstructWall</h5> 
