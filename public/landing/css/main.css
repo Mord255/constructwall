@@ -66,6 +66,7 @@ body {
 }
 
 
+
 p {
   color: var(--color-texts);
 }
@@ -2118,6 +2119,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 .fondoplano {
   background: url(../image/fondoplano.jpg);
+  
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
@@ -2125,11 +2127,14 @@ li.sub-menu--item.nav-item-has-children i {
   width: 100%;
   left: 0;
   transform: rotate(0deg);
-  z-index: -10;
-  background-repeat: no-repeat;
+  z-index: -5;
+  
   background-size: cover;
   background-position: center right;
+  
+  
 }
+
 
 @media (min-width: 992px) {
   .hero-area-l-14 .bg-shape-14 {
