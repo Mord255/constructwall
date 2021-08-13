@@ -67,8 +67,8 @@
 		<ul class="social_footer_ul">
 			<li><a href="https://www.facebook.com/constructwall" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 			<li><a href="https://wa.me/51989753921" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-			<li><a href="#" ><i class="fas fa-envelope"></i></a></li>
-			<li><a href="#" ><i class="fa fa-phone"></i></a></li>
+			<li><a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&" ><i class="fas fa-envelope"></i></a></li>
+			{{-- <li><a href="#" ><i class="fa fa-phone"></i></a></li> --}}
 			<li><a href="https://www.google.com/maps/@-12.0445734,-76.9694711,21z" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
 		</ul>
 	<!--social_footer_ul ends here-->
