@@ -514,14 +514,14 @@
 					</div> 
 				</div>
 				<div class="row text-center justify-content-center">
-					<div class="card col-5 m-2">
+					<div class="card col-lg-5 col-md-12 m-2">
 						<img class="card-image" src="{{ asset('landing/image/mision.png') }}" >
 						<div class="card-body">
 							<h4 class="card-title">Misión</h4>
 							<p>Trabajar constantemente junto con nuestros colaboradores para ofrecer servicios en infraestructura de calidad, confiables, rápidos y con facilidad de adaptación a cada una de las necesidades de nuestros clientes.</p>
 						</div>
 					</div>
-					<div class="card col-5 m-2">
+					<div class="card col-lg-5 col-md-12 m-2">
 						<img class="card-image" src="{{ asset('landing/image/vision.png') }}" >
 						<div class="card-body">
 							<h4 class="card-title">Visión</h4>
@@ -533,20 +533,20 @@
 		</div>
 
 		<div id="contacto" class="container ">
-			<div class="m-5 justify-content-center wrapper">
+			<div class=" m-5 justify-content-center wrapper">
 				<div class="row text-center justify-content-center">
-					<div class="col-12 mt-5 ml-5 mr-5">
+					<div class="col-lg-12 mt-5 ml-5 mr-5">
 						<h2 class="text-center">Informacion de Contacto</h2>
 						<p class="p-heading p-large">No dude en llamarnos o enviarnos un mensaje.</p>
 					</div> 
 				</div>
 				<br>
 				<div class="row no-gutters ">
-					<div class="col-5 m-2 align-items-end">
+					<div class="col-lg-6 col-md-12 m-2 align-items-end">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
 						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
-					<div class=" col-5 m-2">
+					<div class=" col-lg-4 col-md-12 m-2">
 						<div class=" d-flex align-items-stretch">
 							<div class="info-wrap w-100 p-lg-5 p-4 img">
 								<h3>Contact us</h3>
@@ -592,8 +592,6 @@
 										<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
 									</div>
 								</div>
-								
-								
 							</div>
 						</div>
 					</div>
