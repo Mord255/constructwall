@@ -2117,7 +2117,7 @@ li.sub-menu--item.nav-item-has-children i {
   background-position: center right;
 }
 
-.fondoplano {
+/* .fondoplano {
   background: url(../image/fondoplano.jpg);
   
   background-repeat: no-repeat;
@@ -2133,7 +2133,7 @@ li.sub-menu--item.nav-item-has-children i {
   background-position: center right;
   
   
-}
+} */
 
 
 @media (min-width: 992px) {

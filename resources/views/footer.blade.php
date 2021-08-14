@@ -1,7 +1,7 @@
 
 @section('footer')
 
-<footer class="footer" id="contacto">
+<footer class="footer" >
 	{{-- <div class="container bottom_border">
 		<div class="row">
 		<div class=" col-sm-4 col-md col-sm-4  col-12 col">
@@ -55,13 +55,24 @@
 		</div> --}}
 
 	<div class="container">
+		
+			<!--foote_bottom_ul_amrc ends here-->
+			{{-- <div class="row">
+				<div class="col-12">
+					<ul class="foote_bottom_ul_amrc">
+						<li><a class="text-white"> <i class="fas fa-envelope"></i> constructwall.peru@gmail.com</a></li>
+						<li><a class="text-white"> <i class="fas fa-phone"></i> 989753921</a></li>
+						<li><a href="#nosotros">Nosotros</a></li>
+						<li><a href="#contacto">Contactenos</a></li>
+					</ul>
+				</div>
+			</div> --}}
 		<ul class="foote_bottom_ul_amrc">
 			<li><a href="#home">Inicio</a></li>
 			<li><a href="#servicios">Servicios</a></li>
 			<li><a href="#nosotros">Nosotros</a></li>
 			<li><a href="#contacto">Contactenos</a></li>
 		</ul>
-			<!--foote_bottom_ul_amrc ends here-->
 		
 
 		<ul class="social_footer_ul">
@@ -70,7 +81,9 @@
 			<li><a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&" ><i class="fas fa-envelope"></i></a></li>
 			{{-- <li><a href="#" ><i class="fa fa-phone"></i></a></li> --}}
 			<li><a href="https://www.google.com/maps/@-12.0445734,-76.9694711,21z" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
+			
 		</ul>
+		
 	<!--social_footer_ul ends here-->
 	</div>
 	<div style="background-color: black" class="copyright">

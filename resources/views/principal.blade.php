@@ -488,27 +488,128 @@
 			<div class="container position-relative">
 			<div class="bg-shape-img-3"></div>
 			<div class="row cta-area-l-14-content justify-content-center text-lg-start text-center">
-				<div class="col-lg-6">
-				<div class="cta-content">
-					<h2 class="text-white">Ready to get started?</h2>
+				<div class="col-6 text-center">
+					<div class="cta-content">
+						<h3>Mision</h3>
+						<p>Trabajar constantemente junto con nuestros colaboradores para ofrecer servicios en infraestructura de calidad, confiables, rápidos y con facilidad de adaptación a cada una de las necesidades de nuestros clientes.</p>
+					</div>
 				</div>
-				</div>
-				<div class="col-lg-3 text-lg-end text-center">
-				<a class="btn" href="#">Start Free Trial</a>
+				<div class="col-6 text-center">
+					<div class="cta-content">
+						<h3>Vision</h3>
+						<p>Ser una empresa reconocida a nivel Lima Metropolitana por ofrecer servicios en infraestructura con materiales de calidad, ofreciéndoles la mejor respuesta a sus necesidades.</p>
+					</div>
 				</div>
 			</div>
 			</div>
 		</div> --}}
-	  
+		<div id=""></div>
+		
+		<div id="nosotros" class="container text-center">
+			<div class="text-center m-5 justify-content-center">
+				<div class="row text-center justify-content-center">
+					<div class="col-12 m-5">
+						<h2 class="text-center">Sobre Nosotros</h2>
+						{{-- <p class="p-heading p-large">Servimos a pequeñas y medianas empresas en todas las industrias relacionadas con la tecnología con servicios de crecimiento de alta calidad que se presentan a continuación.</p> --}}
+					</div> 
+				</div>
+				<div class="row text-center justify-content-center">
+					<div class="card col-5 m-2">
+						<img class="card-image" src="{{ asset('landing/image/mision.png') }}" >
+						<div class="card-body">
+							<h4 class="card-title">Misión</h4>
+							<p>Trabajar constantemente junto con nuestros colaboradores para ofrecer servicios en infraestructura de calidad, confiables, rápidos y con facilidad de adaptación a cada una de las necesidades de nuestros clientes.</p>
+						</div>
+					</div>
+					<div class="card col-5 m-2">
+						<img class="card-image" src="{{ asset('landing/image/vision.png') }}" >
+						<div class="card-body">
+							<h4 class="card-title">Visión</h4>
+							<p>Ser una empresa reconocida a nivel Lima Metropolitana por ofrecer servicios en infraestructura con materiales de calidad, ofreciéndoles la mejor respuesta a sus necesidades.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="contacto" class="container ">
+			<div class="m-5 justify-content-center wrapper">
+				<div class="row text-center justify-content-center">
+					<div class="col-12 mt-5 ml-5 mr-5">
+						<h2 class="text-center">Informacion de Contacto</h2>
+						<p class="p-heading p-large">No dude en llamarnos o enviarnos un mensaje.</p>
+					</div> 
+				</div>
+				<br>
+				<div class="row no-gutters ">
+					<div class="col-5 m-2 align-items-end">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
+						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<div class=" col-5 m-2">
+						<div class=" d-flex align-items-stretch">
+							<div class="info-wrap w-100 p-lg-5 p-4 img">
+								<h3>Contact us</h3>
+								<br>
+								{{-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> --}}
+								<div class="dbox w-100 d-flex align-items-start">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fa fa-map-marker"></span>
+									</div>
+									<div class="text pl-3">
+										<p><span>Direccion:</span>Av. Los Ruiseñores 555, Santa Anita</p>
+									</div>
+								</div>
+								<div class="dbox w-100 d-flex align-items-start">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fab fa-facebook-f"></span>
+									</div>
+									<div class="text pl-3">
+										<p><span>Facebook: </span> <a target="_blank" href="https://www.facebook.com/constructwall">ConstructWall SRL</a></p>
+									</div>
+								</div>
+								<div class="dbox w-100 d-flex align-items-start">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fab fa-whatsapp"></span>
+									</div>
+									<div class="text pl-3">
+										<p><span>WhatsApp: </span> <a target="_blank" href="https://wa.me/51989753921">989753921</a></p>
+									</div>
+								</div>
+								<div class="dbox w-100 d-flex align-items-start">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fa fa-phone"></span>
+									</div>
+									<div class="text pl-3">
+										<p><span>Celular:</span> <a >989753921</a></p>
+									</div>
+								</div>
+								<div class="dbox w-100 d-flex align-items-start">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="fas fa-paper-plane"></span>
+									</div>
+									<div class="text pl-3">
+										<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!-- Vendor Scripts -->
+	<link rel="stylesheet" href="{{ asset('contacto/css/style.css') }}">
 	<script src="{{ asset('landing/js/vendor.min.js') }}"></script>
 	<script src="{{ asset('landing/plugins/aos/aos.min.js') }}"></script>
 	<script src="{{ asset('landing/plugins/menu/menu.js') }}"></script>
-	<!-- Activation Script -->
 	<script src="{{ asset('landing/js/custom.js') }}"></script>
+	
 </body>
 
 @endsection
 
 @extends('footer')
+
