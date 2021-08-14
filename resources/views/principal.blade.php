@@ -549,14 +549,14 @@
 					<div class=" col-lg-4 col-md-12 m-2">
 						<div class=" d-flex align-items-stretch">
 							<div class="info-wrap w-100 p-lg-5 p-4 img">
-								<h3>Contact us</h3>
+								<h3>Contactanos</h3>
 								<br>
 								{{-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> --}}
 								<div class="dbox w-100 d-flex align-items-start">
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fa fa-map-marker"></span>
 									</div>
-									<div class="text pl-3">
+									<div class="text ">
 										<p><span>Direccion:</span>Av. Los Ruiseñores 555, Santa Anita</p>
 									</div>
 								</div>
@@ -564,7 +564,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fab fa-facebook-f"></span>
 									</div>
-									<div class="text pl-3">
+									<div class="text ">
 										<p><span>Facebook: </span> <a target="_blank" href="https://www.facebook.com/constructwall">ConstructWall SRL</a></p>
 									</div>
 								</div>
@@ -572,7 +572,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fab fa-whatsapp"></span>
 									</div>
-									<div class="text pl-3">
+									<div class="text ">
 										<p><span>WhatsApp: </span> <a target="_blank" href="https://wa.me/51989753921">989753921</a></p>
 									</div>
 								</div>
@@ -580,7 +580,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fa fa-phone"></span>
 									</div>
-									<div class="text pl-3">
+									<div class="text ">
 										<p><span>Celular:</span> <a >989753921</a></p>
 									</div>
 								</div>
@@ -588,7 +588,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fas fa-paper-plane"></span>
 									</div>
-									<div class="text pl-3">
+									<div class="text ">
 										<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
 									</div>
 								</div>
