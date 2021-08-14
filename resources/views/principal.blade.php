@@ -556,7 +556,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fa fa-map-marker"></span>
 									</div>
-									<div class="text ">
+									<div class="text pl-3">
 										<p><span>Direccion:</span>Av. Los Ruiseñores 555, Santa Anita</p>
 									</div>
 								</div>
@@ -564,7 +564,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fab fa-facebook-f"></span>
 									</div>
-									<div class="text ">
+									<div class="text pl-3">
 										<p><span>Facebook: </span> <a target="_blank" href="https://www.facebook.com/constructwall">ConstructWall SRL</a></p>
 									</div>
 								</div>
@@ -572,7 +572,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fab fa-whatsapp"></span>
 									</div>
-									<div class="text ">
+									<div class="text pl-3">
 										<p><span>WhatsApp: </span> <a target="_blank" href="https://wa.me/51989753921">989753921</a></p>
 									</div>
 								</div>
@@ -580,7 +580,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fa fa-phone"></span>
 									</div>
-									<div class="text ">
+									<div class="text pl-3">
 										<p><span>Celular:</span> <a >989753921</a></p>
 									</div>
 								</div>
@@ -588,7 +588,7 @@
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="fas fa-paper-plane"></span>
 									</div>
-									<div class="text ">
+									<div class="text pl-3">
 										<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
 									</div>
 								</div>
