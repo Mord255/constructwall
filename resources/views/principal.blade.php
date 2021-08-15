@@ -542,9 +542,9 @@
 				</div>
 				<br>
 				<div class="row no-gutters ">
-					<div class="col-lg-6 col-md-12 m-2 align-items-end">
+					<div class="col-lg-6 col-md-12 m-2 ">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
-						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe mr-2"></iframe>
 					</div>
 					<div class=" col-lg-4 col-md-12 m-2">
 						<div class=" d-flex align-items-stretch">
@@ -557,7 +557,7 @@
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text pl-3">
-										<p><span>Direccion:</span>Av. Los Ruiseñores 555, Santa Anita</p>
+										<p><span>Direccion:</span>Av. Los Ruiseñores 954, Santa Anita</p>
 									</div>
 								</div>
 								<div class="dbox w-100 d-flex align-items-start">

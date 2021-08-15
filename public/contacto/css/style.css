@@ -58,6 +58,12 @@
   .info-wrap .dbox .text{
     padding-left: 0% !important;
   }
+  .info-wrap h3{
+    text-align: center;
+  }
+  .iframe{
+    margin: 10px !important;
+  }
 }
 
 .btn {
