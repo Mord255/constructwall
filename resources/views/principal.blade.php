@@ -156,7 +156,7 @@
 				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
 					<h2 >Construcciones con Drywall</h2>
-					<p >Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee</p>
+					<p >Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee.</p>
 					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -182,7 +182,7 @@
 				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
 				<div class="content section-heading-8 text-lg-start text-center">
 					<h2>Construcciones en Material Noble</h2>
-					<p>Realizamos todo tipo de construcciones de material noble con expertos caslificados para construccion el hogar de sus sueños</p>
+					<p>Realizamos todo tipo de construcciones de material noble con expertos caslificados para construccion el hogar de sus sueños.</p>
 					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -198,7 +198,7 @@
 				<div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
 				<div class="h-100 section-heading-8 content text-lg-start text-center">
 					<h2>Instalaciones Electricas y Sanitarias</h2>
-					<p>Realizamos instalaciones electricas con materiales de alta calidad y de complejo funcionamiento, a su vez realizamos instalaciones sanitarias para todo tipo de construccion</p>
+					<p>Realizamos instalaciones electricas con materiales de alta calidad y de complejo funcionamiento, a su vez realizamos instalaciones sanitarias para todo tipo de construccion.</p>
 					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -224,7 +224,7 @@
 				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
 				<div class="content section-heading-8 text-lg-start text-center">
 					<h2>Diseño de Interiores</h2>
-					<p>Realizamos todo tipo de Diseño de interiores llevando a cabo el acabado de sus sueños con expertos calificados y materiales de alta calidad</p>
+					<p>Realizamos todo tipo de Diseño de interiores llevando a cabo el acabado de sus sueños con expertos calificados y materiales de alta calidad.</p>
 					<a href="#contacto" class="btn focus-reset">Mas Información<i class="fas fa-angle-right"></i>
 					</a>
 				</div>
@@ -232,7 +232,6 @@
 			</div>
 			</div>
 		</div>
-		
 		
 		<!-- Feature Area -->
 		{{-- <div class="features-area-l-14" id="nosotros">
