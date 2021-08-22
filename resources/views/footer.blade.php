@@ -1,7 +1,7 @@
 
 @section('footer')
 
-<footer class="footer" >
+<footer class="footer" style="background-color: #045449" >
 	{{-- <div class="container bottom_border">
 		<div class="row">
 		<div class=" col-sm-4 col-md col-sm-4  col-12 col">
@@ -54,7 +54,7 @@
 		</div>
 		</div> --}}
 
-	<div class="container">
+	<div class="container" >
 		
 			<!--foote_bottom_ul_amrc ends here-->
 			{{-- <div class="row">

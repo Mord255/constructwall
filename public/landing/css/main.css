@@ -2117,23 +2117,25 @@ li.sub-menu--item.nav-item-has-children i {
   background-position: center right;
 }
 
-/* .fondoplano {
-  background: url(../image/fondoplano.jpg);
-  
+.contactofondo {
+  background: url(../image/9.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.fondoplano {
+  background: url(../image/6.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
-  height: 100%;
-  width: 100%;
+  
   left: 0;
   transform: rotate(0deg);
-  z-index: -5;
-  
+  z-index: -1;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
-  
-  
-} */
+}
 
 
 @media (min-width: 992px) {

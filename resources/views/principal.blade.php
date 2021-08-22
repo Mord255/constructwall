@@ -22,7 +22,7 @@
 					<!-- light version logo (logo must be black)-->
 					<img src="{{ asset('landing/image/logo2.jpg') }}" width="15%" height="15%" alt="" class="light-version-logo">
 					<!-- Dark version logo (logo must be White)-->
-					<img src="{{ asset('landing/image/logo2.jpg') }}" width="15%" height="15%" alt="" class="dark-version-logo">
+					{{-- <img src="{{ asset('landing/image/logo2.jpg') }}" width="15%" height="15%" alt="" class="dark-version-logo"> --}}
 				</a>
 				</div>
 				<div class="menu-block-wrapper">
@@ -84,7 +84,7 @@
 		</header>
 		<!-- navbar- -->
 		<!-- Hero Area -->
-		<div class="hero-area-l-14 position-relative z-index-1 overflow-hidden fondoplano" style="" id="home">
+		<div class="hero-area-l-14 position-relative z-index-1 overflow-hidden " style="" id="home">
 			<div class="container">
 			<div class="row position-relative justify-content-center">
 				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 pr-0 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
@@ -97,7 +97,7 @@
 				<div class="col-xl-7 col-lg-5 col-md-8 " data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
 				<div class="banner-image-l-14">
 					{{-- <img src="{{ asset('landing/image/l4/hero-img.png') }}" alt="" class="w-100 mt-xl-n10"> --}}
-					<img src="{{ asset('landing/image/img2.png') }}" alt="" class="w-100 mt-xl-n10">
+					<img src="{{ asset('landing/image/home.png') }}" alt="" class="w-100 mt-xl-n10">
 				</div>
 				</div>
 			</div>
@@ -163,7 +163,7 @@
 				</div>
 				<div class="offset-xl-2 col-xl-6 col-lg-6 col-md-8 pl-xl-11 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
 				<div class="content-img">
-					<img src="{{ asset('landing/image/l4/content-img-1.png') }}" alt="" class="w-100 w-xl-auto">
+					<img src="{{ asset('landing/image/2.png') }}" alt="" class="w-100 w-xl-auto">
 				</div>
 				</div>
 			</div>
@@ -176,7 +176,7 @@
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
 				<div class="content-img pr-lg-13">
-					<img src="{{ asset('landing/image/l4/content-img-2.png') }}" alt="" class="w-100">
+					<img src="{{ asset('landing/image/3.png') }}" alt="" class="w-100">
 				</div>
 				</div>
 				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
@@ -205,7 +205,7 @@
 				</div>
 				<div class="offset-xl-2 col-xl-6 col-lg-6 col-md-8 pl-xl-11 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
 				<div class="content-img">
-					<img src="{{ asset('landing/image/l4/content-img-1.png') }}" alt="" class="w-100 w-xl-auto">
+					<img src="{{ asset('landing/image/5.png') }}" alt="" class="w-100 w-xl-auto">
 				</div>
 				</div>
 			</div>
@@ -218,7 +218,7 @@
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
 				<div class="content-img pr-lg-13">
-					<img src="{{ asset('landing/image/l4/content-img-2.png') }}" alt="" class="w-100">
+					<img src="{{ asset('landing/image/1.png') }}" alt="" class="w-100">
 				</div>
 				</div>
 				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
@@ -531,65 +531,66 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="contacto" class="container ">
-			<div class=" m-5 justify-content-center wrapper">
-				<div class="row text-center justify-content-center">
-					<div class="col-lg-12 mt-5 ml-5 mr-5">
-						<h2 class="text-center">Informacion de Contacto</h2>
-						<p class="p-heading p-large">No dude en llamarnos o enviarnos un mensaje.</p>
-					</div> 
-				</div>
-				<br>
-				<div class="row no-gutters ">
-					<div class="col-lg-6 col-md-12 m-2 ">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
-						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe mr-2"></iframe>
+		<div class="contactofondo">
+			<div id="contacto" class="container " >
+				<div class=" m-5 justify-content-center wrapper">
+					<div class="row text-center justify-content-center">
+						<div class="col-lg-12 mt-5 ml-5 mr-5">
+							<h2 class="text-center">Informacion de Contacto</h2>
+							<p class="p-heading p-large">No dude en llamarnos o enviarnos un mensaje.</p>
+						</div> 
 					</div>
-					<div class=" col-lg-4 col-md-12 m-2">
-						<div class=" d-flex align-items-stretch">
-							<div class="info-wrap w-100 p-lg-5 p-4 img">
-								<h3>Contactanos</h3>
-								<br>
-								{{-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> --}}
-								<div class="dbox w-100 d-flex align-items-start">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fa fa-map-marker"></span>
+					<br>
+					<div class="row no-gutters ">
+						<div class="col-lg-6 col-md-12 m-2 ">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
+							width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe mr-2"></iframe>
+						</div>
+						<div class=" col-lg-4 col-md-12 m-2">
+							<div class=" d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-lg-5 p-4 img">
+									<h3>Contactanos</h3>
+									<br>
+									{{-- <p class="mb-4">We're open for any suggestion or just to have a chat</p> --}}
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-map-marker"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Direccion:</span> Av. Los Ruiseñores 954, Santa Anita</p>
+										</div>
 									</div>
-									<div class="text pl-3">
-										<p><span>Direccion:</span>Av. Los Ruiseñores 954, Santa Anita</p>
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fab fa-facebook-f"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Facebook: </span> <a target="_blank" href="https://www.facebook.com/constructwall">ConstructWall SRL</a></p>
+										</div>
 									</div>
-								</div>
-								<div class="dbox w-100 d-flex align-items-start">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fab fa-facebook-f"></span>
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fab fa-whatsapp"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>WhatsApp: </span> <a target="_blank" href="https://wa.me/51989753921">989753921</a></p>
+										</div>
 									</div>
-									<div class="text pl-3">
-										<p><span>Facebook: </span> <a target="_blank" href="https://www.facebook.com/constructwall">ConstructWall SRL</a></p>
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-phone"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Celular:</span> <a >989753921</a></p>
+										</div>
 									</div>
-								</div>
-								<div class="dbox w-100 d-flex align-items-start">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fab fa-whatsapp"></span>
-									</div>
-									<div class="text pl-3">
-										<p><span>WhatsApp: </span> <a target="_blank" href="https://wa.me/51989753921">989753921</a></p>
-									</div>
-								</div>
-								<div class="dbox w-100 d-flex align-items-start">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fa fa-phone"></span>
-									</div>
-									<div class="text pl-3">
-										<p><span>Celular:</span> <a >989753921</a></p>
-									</div>
-								</div>
-								<div class="dbox w-100 d-flex align-items-start">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fas fa-paper-plane"></span>
-									</div>
-									<div class="text pl-3">
-										<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fas fa-paper-plane"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Correo:</span> <a href="mailto:constructwall.peru@gmail.com?subject=Informacion ConstructWall&">constructwall.peru@gmail.com</a></p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -599,6 +600,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<link rel="stylesheet" href="{{ asset('contacto/css/style.css') }}">
 	<script src="{{ asset('landing/js/vendor.min.js') }}"></script>
 	<script src="{{ asset('landing/plugins/aos/aos.min.js') }}"></script>
