@@ -90,7 +90,7 @@
 				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 pr-0 " data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
 				<div class="content">
 					<h1 class="text-white"><b>CONSTRUCTWALL</b></h1>
-					<p class="text-white">Somos CONSTRUCTWALL, empresa dedicada a la prestación de servicios en drywall, instalaciones eléctricas y sanitarias, construcciones en material noble y diseño de Interiores. Contamos con un equipo calificado que está conformado por profesionales y personal calificado con experiencia.</p>
+					<p class="text-white">Somos CONSTRUCTWALL, empresa dedicada a la prestación de servicios en drywall, instalaciones eléctricas y sanitarias, construcciones en material noble y diseño de Interiores. Contamos con un equipo calificado que está conformado por profesionales y personal con amplia experiencia.</p>
 					{{-- <a href="#" class="btn focus-reset">Start my free trial</a> --}}
 				</div>
 				</div>
@@ -218,7 +218,7 @@
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
 				<div class="content-img pr-lg-13">
-					<img src="{{ asset('landing/image/1.png') }}" alt="" class="w-100">
+					<img src="{{ asset('landing/image/diseno.png') }}" alt="" class="w-100">
 				</div>
 				</div>
 				<div class="col-xl-4 offset-xl-2 col-lg-6 col-md-8 col-sm-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
@@ -502,7 +502,7 @@
 			</div>
 			</div>
 		</div> --}}
-		<div id=""></div>
+		
 		
 		<div id="nosotros" class="container text-center">
 			<div class="text-center m-5 justify-content-center">
@@ -541,11 +541,13 @@
 					</div>
 					<br>
 					<div class="row no-gutters ">
-						<div class="col-lg-6 col-md-12 m-2 ">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
-							width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe mr-2"></iframe>
+						<div class="col-lg-6  ">
+							<div class="map-responsive">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4965597886745!2d-76.96999117084103!3d-12.044467587884942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c714a1c664e3%3A0x3ea4ce3436b61176!2sTienda%20accesorios%20para%20celulares!5e0!3m2!1ses-419!2spe!4v1628913869078!5m2!1ses-419!2spe" 
+								width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe mr-2"></iframe>
+							</div>
 						</div>
-						<div class=" col-lg-4 col-md-12 m-2">
+						<div class=" col-lg-6  ">
 							<div class=" d-flex align-items-stretch">
 								<div class="info-wrap w-100 p-lg-5 p-4 img">
 									<h3>Contactanos</h3>

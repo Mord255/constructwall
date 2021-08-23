@@ -2118,9 +2118,39 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .contactofondo {
-  background: url(../image/9.png);
+  background: url(../image/8.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center right;
+  
+  
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.map-responsive{
+  position: relative;
+    overflow: hidden;
+    
+    margin-bottom: 4rem;
+    padding-bottom: 70%;
+    border-radius: 0.25rem;
+}
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.map-responsive {
+  max-width: 31rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fondoplano {
@@ -2133,7 +2163,12 @@ li.sub-menu--item.nav-item-has-children i {
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center right;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
 }
 
 
