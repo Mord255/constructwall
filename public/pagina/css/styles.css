@@ -784,7 +784,9 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-  background-color: #fff;
+  background: url("../images/hero-bg.svg") center center no-repeat;
+    background-size: cover;
+    
 }
 
 .header .header-content {
@@ -1861,6 +1863,7 @@ a:hover.back-to-top {
   .header {
     background: url("../images/hero-bg.svg") center center no-repeat;
     background-size: cover;
+    
   }
 
   .header .header-content {
