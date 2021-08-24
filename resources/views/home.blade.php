@@ -130,109 +130,6 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
-
-
-    <!-- Customers -->
-    <!-- 
-    <div class="slider-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h5>Trusted By</h5>
-                    
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/pecsalud.png" alt="alternative" style="width: 135px; height: 40px;">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-2.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-3.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-4.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-5.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-6.png" alt="alternative">
-                                    </div>
-                                </div>
-                            </div> 
-                        </div> 
-                    </div> 
-                   
-
-                </div> 
-            </div> 
-        </div>
-    </div> 
-    -->
-    <!-- end of slider-1 -->
-    <!-- end of customers -->
-
-
-    <!-- Services -->
-
-
-    {{-- <div id="services" class="cards-1">
-        <div class="container">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Servicios de crecimiento empresarial</h2>
-                    <p class="p-heading p-large">Servimos a pequeñas y medianas empresas en todas las industrias relacionadas con la tecnología con servicios de crecimiento de alta calidad que se presentan a continuación.</p>
-                </div> 
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <div class="card">
-                        <img class="card-image" src="pagina/images/services-icon-1.svg" alt="alternative">
-                        <div class="card-body">
-                            <h4 class="card-title">Análisis de mercado</h4>
-                            <p>Nuestro equipo de especialistas en marketing entusiastas analizará y evaluará cómo se compara su empresa con los competidores más cercanos.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <img class="card-image" src="pagina/images/services-icon-2.svg" alt="alternative">
-                        <div class="card-body">
-                            <h4 class="card-title">Escaneo de oportunidades</h4>
-                            <p>Una vez finalizado el proceso de análisis de mercado, nuestro personal buscará oportunidades que estén al alcance.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <img class="card-image" src="pagina/images/services-icon-3.svg" alt="alternative">
-                        <div class="card-body">
-                            <h4 class="card-title">Plan de Acción</h4>
-                            <p>Con toda la información en su lugar, se le presentará un plan de acción que su empresa debe seguir para poder alcanzar el éxito.</p>
-                        </div>
-                    </div>
-                    
-                </div> 
-            </div> 
-        </div> 
-    </div>  --}}
     
     <!-- Details 2 -->
     <div class="basic-2" id="services">
@@ -276,7 +173,56 @@
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="pagina/images/obra.jpeg" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/obra.jpeg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-5">
+                    <h3>Mas Servicios</h3>
+                    <hr>
+                    {{-- <p>El módulo de correo electrónico básicamente acelerará sus operaciones de marketing por correo electrónico al tiempo que ofrece un mayor control de los suscriptores.</p> --}}
+                    {{-- <p>¿Necesita crear listas para sus campañas de correo electrónico? Ahora es más fácil con HostDog.</p> --}}
+                    <h5>Acabados Modernos</h5>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Pisos en Porcelanato líquido según su diseño.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Porcelanato.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Cerámicos.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Piso Flotante.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Azulejos.</div>
+                        </li>
+                    </ul>
+                    <h5>Instalaciones Sanitarias</h5>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Agua, desage.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Instalación, reparación y mantenimiento.</div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="btn-solid-reg mfp-close page-scroll" href="#contact">Enviar</a> 
+                <a class="btn-outline-reg mfp-close as-button" href="#screenshots">Atrás</a>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div>
+
+    <!-- Details Lightbox 3 -->
+	<div id="details-lightbox-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/obra2.jpeg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
@@ -335,34 +281,6 @@
                             <i class="fas fa-check"></i><div class="media-body">Sobre techos, entrepisos.</div>
                         </li>
                     </ul>
-                    <h5>Acabados Modernos</h5>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Pisos en Porcelanato líquido según su diseño.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Porcelanato.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Cerámicos.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Piso Flotante.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Azulejos.</div>
-                        </li>
-                    </ul>
-                    <h5>Instalaciones Sanitarias</h5>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Agua, desage.</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">Instalación, reparación y mantenimiento.</div>
-                        </li>
-                        
-                    </ul>
                     
                 </div>
                 <a class="btn-solid-reg mfp-close page-scroll" href="#contact">Enviar</a> 
@@ -378,7 +296,7 @@
                     <div class="text-container">
                         <h2>Construcciones con Drywall</h2>
                         <p>Realizamos contrucciones con Drywall de la mas alta calidad con expertos calificados para llevar a cabo lo que desee.</p>
-                        <a class="btn-solid-reg " href="#contact">Mas Información <i class="fas fa-angle-right"></i></a>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-3">Descubrir mas <i class="fas fa-angle-right"></i></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
