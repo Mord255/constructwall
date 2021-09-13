@@ -64,3 +64,11 @@
   }
   
 }
+
+@media screen and (max-width:1000px){
+  
+  .navbar-custom .navbar-brand.logo-image img {
+    width: 120px;
+    height: 4rem;
+  }
+}

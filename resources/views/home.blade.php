@@ -1,6 +1,4 @@
 
-@section('titulo','ConstructWall')
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
