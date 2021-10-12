@@ -287,6 +287,58 @@
         </div> <!-- end of container -->
     </div>
 
+    <!-- Details Lightbox 3 -->
+	<div id="details-lightbox-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/images(14).jpeg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-5">
+                    <h3>Mas Servicios</h3>
+                    <hr>
+                    <h5>Infraestructura</h5>
+                    {{-- <p>El módulo de correo electrónico básicamente acelerará sus operaciones de marketing por correo electrónico al tiempo que ofrece un mayor control de los suscriptores.</p> --}}
+                    {{-- <p>¿Necesita crear listas para sus campañas de correo electrónico? Ahora es más fácil con HostDog.</p> --}}
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Viviendas 1 piso a más.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Cimentaciones.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Muros de contención.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Cercos Perimetrales.</div>
+                        </li>
+                    </ul>
+                    <h5>Detalles</h5>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Escaleras.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Mobiliarios.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Balcones.</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Parapetos.</div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="btn-solid-reg mfp-close page-scroll" href="#contact">Enviar</a> 
+                <a class="btn-outline-reg mfp-close as-button" href="#screenshots">Atrás</a>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div>
+
     <div class="basic-1">
         <div class="container">
             <div class="row">
@@ -299,7 +351,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="pagina/images/2.png" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/images (20).jpeg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -311,14 +363,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="pagina/images/3.png" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/images(15).jpeg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="text-container">
                         <h2>Construcciones en Material Noble</h2>
 					    <p>Realizamos todo tipo de construcciones de material noble con expertos caslificados para construccion el hogar de sus sueños.</p>
-                        <a class="btn-solid-reg " href="#contact">Mas Información <i class="fas fa-angle-right"></i></a>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-4">Descubrir mas <i class="fas fa-angle-right"></i></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -349,7 +401,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="pagina/images/diseno.png" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/images(11).jpeg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
