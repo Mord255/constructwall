@@ -120,7 +120,7 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                            <img class="img-fluid" src="pagina/images/home.png" alt="alternative">
+                            <img class="img-fluid" src="pagina/images/png.png" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -389,7 +389,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="pagina/images/5.png" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/elect.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -401,7 +401,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/images(11).jpeg" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/imagen_01.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
