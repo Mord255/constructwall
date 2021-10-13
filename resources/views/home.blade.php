@@ -401,7 +401,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/imagen_01.jpg" alt="alternative">
+                        <img style="border-radius: 15px;" class="img-fluid" src="pagina/images/Imagen_01.jpg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
